@@ -1,0 +1,627 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+/* navbar */
+.navbar
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    opacity: 97%;
+    color: #fff;
+}
+.navbar img
+{
+    width: 70px;
+    height: 60px;
+    filter: invert(100%);
+}
+
+.navbar ul
+{
+    display: flex;
+    list-style: none;
+    margin-top: 20px;
+}
+
+.link
+{
+    text-decoration: none;
+    padding: 10px;
+    border-bottom: solid 2px #a855f7;
+    margin: 10px;
+    color: #fff;
+}
+.link:hover
+{
+    border-top: solid 2px #a855f7;
+    border-bottom: none;
+    color: #a855f7;
+}
+
+/* Home page */
+.sec1
+{
+    height: 100vh;
+    background-color: #333;
+    display: flex;
+    justify-content: space-around;
+}
+.formeler
+{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    align-items: center;
+    justify-content: center;
+}
+.formeler form
+{
+    display: flex;
+    flex-direction: column;
+
+}
+.formeler form input,.formeler select
+{
+    width: 300px;
+    height: 40px;
+    background-color: #333;
+    border-radius: 6px;
+    
+}
+.formeler p
+{
+    width: 650px;
+    margin-bottom:50px;
+}
+.formeler h1
+{
+    font-size: 55px;
+    margin-bottom:50px;
+    
+}
+
+.imgSec1
+{
+    width: 50vw;
+}
+.imgSec1 img
+{
+    width: 50vw;
+    height: 100vh;
+}
+
+/* ----------------- */
+.sec2
+{
+    height: 100vh;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.imgSec2
+{
+    width: 50vw;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.imgHome2
+{
+    width: 600px;
+    border-radius: 6%;
+    filter: drop-shadow(10px 10px 5px #333);
+}
+
+.textSec2
+{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.textSec2 h1
+{
+    width: 70vh;
+}
+.textSec2 p
+{
+    width: 60vh;
+}
+
+/* ----------------- */
+.sec3
+{
+    height: 100vh;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.imgSec3
+{
+    width: 50vw;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.imgHome3
+{
+    width: 600px;
+    border-radius: 6%;
+    filter: drop-shadow(-10px 10px 5px #333);
+}
+.textSec3
+{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.textSec3 h1
+{
+    width: 70vh;
+}
+.textSec3 p
+{
+    width: 60vh;
+}
+/* ------------- */
+footer
+{
+    height: 30vh;
+    background-color: #333;
+    display: flex;
+}
+.logo
+{
+    width: 30vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-right: #fff solid 1px;
+}
+.logo img
+{
+    width: 90px;
+    height: 80px;
+    filter: invert(100%);
+}
+
+.infomedia
+{
+    width: 70vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+}
+.info
+{
+    width: 70vw;
+    height: 22vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.pro
+{
+    width: 70vw;
+    height: 8vh;
+    border-top: #fff solid 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: #fff;
+}
+
+.contactAboutus
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 11vh;
+    width: 20vw;
+}
+.contactAboutus2
+{
+    color: #fff;
+    font-size: 20px;
+}
+
+.media
+{
+    height: 11vh;
+    width: 20vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.media img
+{
+    width: 30px;
+    height: 30px;
+}
+/* Contact */
+.contact
+{
+    display: flex;
+    height: 100vh;
+    background-color: #333;
+    display: flex;
+}
+
+
+.boxContact
+{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.boxContact form input
+{
+    width: 400px;
+    height: 40px;
+    background-color: #333;
+}
+.boxContact form textarea
+{
+    width: 400px;
+    background-color: #333;
+}
+.boxContact form button
+{
+    width: 400px;
+}
+
+.imgContact img
+{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+/* sign */
+.sign
+{
+    background-image: url('./image//sign.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.emptyNav
+{
+    width: 100vw;
+    height: 7vh;
+    background-color: #333;
+    border-bottom: #a855f7 solid 1px;
+}
+.logonav
+{
+    width: 70px;
+    height: 60px;
+    filter: invert(100%);
+}
+.sign div
+{
+    width: 100vw;
+    height: 93vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign div form
+{
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    backdrop-filter: blur(50px);
+    border-radius: 10%;
+    box-shadow: 10px 10px 50px #a855f7;
+}
+
+.sign div form input
+{
+    width: 20vw;
+}
+
+.singBut
+{
+    width: 20vw;
+}
+
+/* Time*/
+
+main
+{
+    display: flex;
+    flex-direction: column;
+    height: 93vh;
+    background-image: linear-gradient(to bottom ,#333,#333333a8);
+    flex-wrap: wrap;
+    text-align: center;
+    padding-top: 100px;
+
+}
+.carts
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.container {
+    padding: 50px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent {
+    height: 400px;
+    width: 300px;
+    padding: 20px;
+    perspective: 1000px;
+}
+
+.card {
+    padding-top: 100px;
+    transform-style: preserve-3d;
+    background-image: url("./image/bus8am.jpeg");
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    transition: all 0.5s ease-in-out;
+    border-radius: 10px;
+}
+.card:hover {
+    background-position: 80% 20%;
+    transform: rotate3d(0.5, 1, 0, 20deg);
+}
+
+.content-box {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.811);
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: #a855f7 0px 20px 50px -25px;
+    transition: all 0.5s ease-in-out;
+    padding: 50px 25px 25px 25px;
+    transform-style: preserve-3d;
+}
+.content-box .card-title {
+    color: white;
+    font-size: 25px;
+    font-weight: 900;
+    transition: all 0.5s ease-in-out;
+    transform: translate3d(0px, 0px, 20px);
+}
+.content-box .card-title:hover {
+    transform: translate3d(0px, 0px, 50px);
+}
+.content-box .card-content {
+    padding-top: 15px;
+    font-size: 12px;
+    color: #b9b9b9;
+    transition: all 0.5s ease-in-out;
+    transform: translate3d(0px, 0px, 20px);
+}
+.content-box .card-content:hover {
+    transform: translate3d(0px, 0px, 50px);
+}
+.content-box .see-more {
+    display: block;
+    width: 50px;
+    height: 30px;
+    font-weight: 900;
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #a855f7;
+    transition: all 0.5s ease-in-out;
+    transform: translate3d(0px, 0px, 20px);
+    border: #a855f7 solid 1px;
+    padding-top: 6px;
+    box-shadow: #a855f7 0px 0px 40px;
+    
+}
+.content-box .see-more:hover {
+    transform: translate3d(0px, 0px, 50px);
+}
+
+.date-box {
+    position: absolute;
+    top: 75px;
+    left: 25px;
+    height: 60px;
+    width: 60px;
+    background-color: black;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: #a855f7 0px 20px 60px 0px, #a855f7 0px 18px 36px -18px;
+    transform: translate3d(0px, 0px, 50px);
+}
+.date-box span {
+    display: block;
+    text-align: center;
+}
+.date-box .month {
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+    color: #a855f7;
+
+}
+.date-box .date {
+    font-size: 15px;
+    font-weight: 700;
+    color: #ffffff;
+}
+/* Profile*/
+.profilecart
+{
+    height: 93vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    background-image: linear-gradient(to bottom ,#333,#333333a8);
+}
+.titleticket
+{
+    font-size: 80px;
+    color: #fff;
+    margin-top: 50px;
+
+}
+.ticket
+{
+    width: 60vw;
+    height: 45vh;
+    display: flex;
+    border-radius: 40px;
+    background-color: #333;
+    box-shadow: #a855f7 0px 0px 50px;
+    margin-top: 150px;
+}
+.imgprofile
+{
+    width: 30vw;
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgprofile img
+{
+    height: 40vh;
+    border-radius: 40px;
+}
+
+.infocart
+{
+    width: 30vw;
+    height: 45vh;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 30px;
+    color: #fff;
+}
+
+.nameinfo
+{
+    font-size: 35px;
+}
+
+/* about us */
+
+.aboutus
+{
+    height: 100vh;
+    background-color: #333;
+}
+.aboutus .team
+{
+    height: 40vh;
+}
+.aboutus .boss
+{
+    height: 40vh;
+    background-image: url('./image/admin.png');
+    background-size: cover;
+    background-position: center;
+    filter: hue-rotate(35deg)
+}
+.aboutus .mediaaboutus
+{
+    height: 20vh;
+}
+.team div
+{
+    height: 35vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 22px;
+}
+.team h1
+{
+    padding-left: 50px;
+}
+.team div p
+{
+    width: 40vw;
+    height: 27vh;
+    border: #a855f7 solid 1px;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.team h1
+{
+    height: 5vh;
+}
+
+.boss p
+{
+    width: 48vw;
+    height: 29vh;;
+    padding: 50px;
+    border-radius: 20px;
+    font-size: 30px;
+    backdrop-filter: blur(50px);
+}
+.boss h1
+{
+    padding-left: 50px;
+}
+.mediaaboutus
+{
+    display: flex;
+    justify-content: start;
+    align-items:center;
+
+}
+.mediaaboutus h1
+{
+    padding-left: 50px;
+}
+.mediaIcon
+{
+    width: 50vw;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 100px;
+
+}
+.mediaIcon img
+{
+    width: 2vw;
+}
